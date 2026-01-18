@@ -8,9 +8,6 @@ import requests
 import re
 import json
 
-# Command line apps
-import typer
-app = typer.Typer()
 
 def check_microcenter_stock(product_id):
     url = f"https://www.microcenter.com/product/{product_id}/hmm-coffee"
@@ -36,11 +33,3 @@ def check_microcenter_stock(product_id):
             print(f"{store['storeName']}: {store['qoh']} in stock")
     else:
         print("Out of Stock!")
-
-@app.command()
-def main(product_id: str):
-    # product_id = input("Enter product ID: ")
-    check_microcenter_stock(product_id)
-
-if __name__ == "__main__":
-    app()
