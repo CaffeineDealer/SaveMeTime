@@ -7,6 +7,13 @@ Educational project to learn web scraping and save time checking product availab
 ## Current Scripts
 - **microcenter.py** - Check MicroCenter product stock across all locations
 
+## Installation
+Requires: 'uv'
+```bash
+uv venv
+uv sync
+```
+
 ## Usage
 ```bash
 python microcenter.py
