@@ -17,7 +17,7 @@ uv sync
 ## Usage
 ```bash
 python microcenter.py PRODUCT_ID
-# Enter product ID when prompted
+# Enter product ID on the same line
 ```
 
 ## Disclaimer
