@@ -26,11 +26,12 @@ def check_microcenter_stock(product_id):
     inventory = json.loads(match.group(1))
     print(f"Store Availability {product_id}:\n")
     inStock = [store for store in inventory if store['qoh'] > 0]
+    
     if inStock:
         for store in inStock:
             print(f"{store['storeName']}: {store['qoh']} in stock")
     else:
         print("Out of Stock!") 
 
-product_id = input("Enter product ID")
+product_id = input("Enter product ID: ")
 check_microcenter_stock(product_id)
