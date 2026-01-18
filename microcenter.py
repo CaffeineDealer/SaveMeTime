@@ -30,6 +30,6 @@ def check_microcenter_stock(product_id):
     
     if inStock:
         for store in inStock:
-            print(f"{store['storeName']}: {store['qoh']} in stock")
+            print(f"In stock at {store['storeName']}")
     else:
         print("Out of Stock!")

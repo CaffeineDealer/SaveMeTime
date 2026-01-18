@@ -5,7 +5,7 @@ Quick scripts to check inventory/stock data from various websites.
 Educational project to learn web scraping and save time checking product availability across multiple stores.
 
 ## Current Scripts
-- **microcenter.py** - Check MicroCenter product stock across all locations
+- **main.py** - Check MicroCenter product stock across all locations
 
 ## Installation
 Requires: 'uv'
