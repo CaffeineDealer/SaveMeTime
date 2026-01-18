@@ -1,4 +1,7 @@
-
+# Objective: Parse inventory information across different stores for a given retailer
+# Created: Jan 18 2026
+# Last Modified: Jan 18 2026
+# Author: CaffeineDealer
 
 # Command line apps
 import typer
