@@ -16,8 +16,13 @@ uv sync
 
 ## Usage
 ```bash
+# Activate virtual environment
+cd /path/to/repo
+source .venv/bin/activate
+
+# Run the script (find the PRODUCT_ID in the URL)
 python main.py microcenter PRODUCT_ID
-# Enter product ID on the same line
+
 ```
 
 ## Disclaimer
