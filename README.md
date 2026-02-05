@@ -1,5 +1,6 @@
 # SaveMeTime
 Quick scripts to check inventory/stock data from various websites.
+Current implementation covers Microcenter 
 
 ## Purpose
 Educational project to learn web scraping and save time checking product availability across multiple stores.
