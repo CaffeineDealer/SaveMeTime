@@ -7,6 +7,8 @@
 import requests
 import re
 import json
+import os
+from cerebras.cloud.sdk import Cerebras
 
 
 def check_microcenter_stock(product_id):
